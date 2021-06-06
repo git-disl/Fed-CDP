@@ -1,12 +1,23 @@
 # Fed-CDP
 Code for ICDCS2021 Gradient-Leakage Resilient Federated Learning.
 
+```
+Wenqi Wei, Ling Liu, Yanzhao Wu, Gong Su, and Arun Iyengar. "Gradient-Leakage Resilient Federated Learning", IEEE International Conference on Distributed Computing Systems (ICDCS 2021), Virtual, July, 2021  
+```
+
+
 ## description
 
+### Federated learning faces three types of gradient leakage threats basing on the place of leakage 
 
 ![threat model](description/Slide3.PNG)
 
+
+### Existing approaches for federated learning with differential privacy （coined as Fed-SDP） concerns only the client-level differential privacy with per-client per-round noise.
+
 ![fed-sdp](description/Slide6.PNG)
+
+### Our approach for federated learning with differential privacy (refered to as Fed-CDP) retrospects the instance-level differential privacy guarantee with per-example per-local iteration noise. With some differential privacy properties, the instance-level differential privacy guarantee also ensures the client-level differential privacy in federated learning.
 
 ![fed-cdp](description/Slide7.PNG)
 
@@ -23,8 +34,5 @@ Code for ICDCS2021 Gradient-Leakage Resilient Federated Learning.
 - For gradient leakage attacks, please refer to our [CPL attacks](https://git-disl.github.io/ESORICS20-CPL/).
 
 
-If you use our code, please cite:
 
-```
-Wenqi Wei, Ling Liu, Yanzhao Wu, Gong Su, and Arun Iyengar. "Gradient-Leakage Resilient Federated Learning", IEEE International Conference on Distributed Computing Systems (ICDCS 2021), Virtual, July, 2021  
-...
+
