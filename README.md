@@ -1,9 +1,4 @@
-# Fed-CDP
-Code for ICDCS2021 Gradient-Leakage Resilient Federated Learning.
-
-```
-Wenqi Wei, Ling Liu, Yanzhao Wu, Gong Su, and Arun Iyengar. "Gradient-Leakage Resilient Federated Learning", IEEE International Conference on Distributed Computing Systems (ICDCS 2021), Virtual, July, 2021  
-```
+# Fed-CDP: Gradient Leakage Resilient Federated Learning
 
 
 ## description
@@ -23,7 +18,6 @@ Wenqi Wei, Ling Liu, Yanzhao Wu, Gong Su, and Arun Iyengar. "Gradient-Leakage Re
 
 
 
-
 ## how to run
 
 
@@ -35,6 +29,26 @@ Wenqi Wei, Ling Liu, Yanzhao Wu, Gong Su, and Arun Iyengar. "Gradient-Leakage Re
 
 - For gradient leakage attacks, please refer to our [CPL attacks](https://git-disl.github.io/ESORICS20-CPL/).
 
+
+If you use our code, please cite:
+
+```
+@inproceedings{wei2020framework,
+  title={A framework for evaluating client privacy leakages in federated learning},
+  author={Wei, Wenqi and Liu, Ling and Loper, Margaret and Chow, Ka-Ho and Gursoy, Mehmet Emre and Truex, Stacey and Wu, Yanzhao},
+  booktitle={European Symposium on Research in Computer Security},
+  year={2020},
+  organization={Springer}
+}
+
+@inproceedings{wei2021gradient,
+  title={Gradient-Leakage Resilient Federated Learning},
+  author={Wei, Wenqi and Liu, Ling and Wu, Yanzhao and Su, Gong and Iyengar, Arun},
+booktitle={International Conference on Distributed Computing Systems},
+  year={2021},
+  organization={IEEE}
+}
+...
 
 
 
