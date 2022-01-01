@@ -3,6 +3,9 @@
 
 ## description
 
+This is the code for differentially private federated learning (![our paper](https://ieeexplore.ieee.org/abstract/document/9546481)) that is resilient to gradient privacy leakage. For gradient leakage attack, check ![CPL attack](https://link.springer.com/chapter/10.1007/978-3-030-58951-6_27)  and [attack code](https://github.com/git-disl/CPL_attack). An adaptation for centralized setting can be found (![our paper](https://ieeexplore.ieee.org/document/9666855)).
+
+
 ### Federated learning faces three types of gradient leakage threats basing on the place of leakage 
 
 ![threat model](description/Slide3.PNG)
@@ -20,6 +23,9 @@
 
 ## how to run
 
+- First install the conda environment with environment.yml.
+
+- Then run create_FLdistribution.sh to create a client distribution first (each client has two shards). The distribution file xxx_1000_clients.pkl would appear in the client folder and you may run the rest.
 
 - <strong>FedSDP.py</strong> contains the code for training a benign and existing differentially private federated learning model (McMahan, H. Brendan, Daniel Ramage, Kunal Talwar, and Li Zhang. "Learning differentially private recurrent language models." arXiv preprint arXiv:1710.06963 (2017).). In this differentially private model, we consider Fed-SDP which adds per-client per-round noise, and only holds client level differential privacy. 
 
@@ -27,10 +33,10 @@
 
 - <strong>privacy_accounting_fed_clientlevel.py</strong>  and <strong>privacy_accounting_fed_instancelevel.py</strong> are codes for computing epsilon privacy spending at client level (for Fed-SDP with sampling rate = #participating clients/#total clients) and at instance level (for Fed-CDP with sampling rate = batch size * # participating client / # global data). We consider five privacy accounting methods: base composition, advanced composition, optimal composition, zCDP and Moments accountant.
 
-- For gradient leakage attacks, please refer to our [CPL attacks](https://git-disl.github.io/ESORICS20-CPL/).
+- For gradient leakage attacks, please refer to our [CPL attacks](https://git-disl.github.io/CPL_attack/).
 
 
-If you use our code, please cite:
+If you are interested in our research, please cite:
 
 ```
 @inproceedings{wei2020framework,
@@ -56,7 +62,10 @@ booktitle={International Conference on Distributed Computing Systems},
  publisher={IEEE}}
 
 }
-...
+```
+
+Feel free to send me an email at wenqiwei66@gmail.com or wenqiwei@gatech.edu or raise an issue if you have any questions.
+
 
 
 
