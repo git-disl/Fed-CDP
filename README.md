@@ -38,7 +38,7 @@ If you use our code, please cite:
   author={Wei, Wenqi and Liu, Ling and Loper, Margaret and Chow, Ka-Ho and Gursoy, Mehmet Emre and Truex, Stacey and Wu, Yanzhao},
   booktitle={European Symposium on Research in Computer Security},
   year={2020},
-  organization={Springer}
+ publisher={Springer}
 }
 
 @inproceedings{wei2021gradient,
@@ -46,7 +46,15 @@ If you use our code, please cite:
   author={Wei, Wenqi and Liu, Ling and Wu, Yanzhao and Su, Gong and Iyengar, Arun},
 booktitle={International Conference on Distributed Computing Systems},
   year={2021},
-  organization={IEEE}
+ publisher={IEEE}}
+
+@article{wei2021gradient_tifs,
+ title={Gradient Leakage Attack Resilient Deep Learning},  
+ author={Wei, Wenqi and Liu, Ling},
+  journal={Transactions on Information Forensics and Security},
+  year={2021}，
+ publisher={IEEE}}
+
 }
 ...
 
