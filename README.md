@@ -3,6 +3,8 @@
 
 ## description
 
+This is the $\alpha$ version of Fed-CDP. We are working on $\beta$ and later versions.  
+
 This is the code for differentially private federated learning ([our paper](https://ieeexplore.ieee.org/abstract/document/9546481)) that is resilient to gradient privacy leakage. For gradient leakage attack, check [CPL attack](https://link.springer.com/chapter/10.1007/978-3-030-58951-6_27)  and [attack code](https://github.com/git-disl/CPL_attack). An adaptation for centralized setting can be found ([our paper](https://ieeexplore.ieee.org/document/9666855)).
 
 
