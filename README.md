@@ -66,7 +66,7 @@ booktitle={International Conference on Distributed Computing Systems},
 }
 ```
 
-Feel free to send me an email at wenqiwei66@gmail.com or wenqiwei@gatech.edu or raise an issue if you have any questions.
+Feel free to send me an email at wenqiwei@gatech.edu or raise an issue if you have any questions.
 
 
 
